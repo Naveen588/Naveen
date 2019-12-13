@@ -1,0 +1,17 @@
+for i in range(0,10):
+	if i%2 ==0:
+		print(i,'even number')
+	else:
+		print(i,'odd number')
+
+output:
+0 even number
+1 odd number
+2 even number
+3 odd number
+4 even number
+5 odd number
+6 even number
+7 odd number
+8 even number
+9 odd number
