@@ -1,0 +1,14 @@
+print("\npython string")     
+s = "Geeks"
+for i in s : 
+    print(i)
+ 
+ output:
+ python string
+W
+e
+l
+c
+o
+m
+e
