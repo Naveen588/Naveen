@@ -1,0 +1,9 @@
+a ="welcome to python class"
+if 'y' in a:
+	print('y')
+else:
+  print(a)
+  
+  
+  output:
+  y
