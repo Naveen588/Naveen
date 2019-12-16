@@ -1,0 +1,6 @@
+a = "welcome to python"
+for i in a:
+	print(i)
+if 'y' in a:
+	print('\n')
+print(a.count(' '))
