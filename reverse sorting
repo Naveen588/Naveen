@@ -1,0 +1,3 @@
+list=[884,2251,21,325,56]
+list.sort(reverse=True)
+print(list)
