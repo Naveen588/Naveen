@@ -1,0 +1,7 @@
+total = 0
+n = [11, 5, 17, 18, 26,1003]  
+  
+for ele in range(0, len(n)): 
+    total = total + n[ele] 
+   
+print("Sum of all elements in given list: ", total)
