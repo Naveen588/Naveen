@@ -1,0 +1,25 @@
+def palindromeNumbers(list_a):  
+    c = 0 
+    for i in list_a:
+        t=i
+        rev = 0
+        while t > 0 : 
+            rev =  rev * 10  + int ( t % 10)
+            t = int (t / 10) 
+
+        if rev == i: 
+            print (i)
+            c = c+1
+
+    print ("Total palindrome num. are ", c) 
+   
+def main(): 
+  
+    list_a = [10, 121, 133, 155, 141,585, 252] 
+    palindromeNumbers(list_a) 
+  
+    list_b = [ 111, 220, 784, 565, 498, 787, 363] 
+    palindromeNumbers(list_b)                  
+  
+if __name__=="__main__": 
+    main()          
