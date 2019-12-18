@@ -1,0 +1,7 @@
+def Average(lst): 
+    return sum(lst) / len(lst) 
+   
+lst = [99,56,52,54,12,56,339] 
+average = Average(lst) 
+   
+print("Average of the list =", round(average, 2))
